@@ -1,0 +1,33 @@
+#container{
+       position: absolute;
+       left: 0;
+       top: 0;
+       width: 100%;
+       min-height: 100%;
+       background-color: lightslategrey;
+       display: flex;
+       justify-content: center;
+       /*justify-content: start;
+       justify-content: end;*/
+       place-items: center;
+       /*place-items: start;
+       place-items: end;*/
+}
+
+#item {
+      position: relative;
+      width: 250px;
+      height: 250px;
+      background-color: rgb(224, 77, 28);
+}
+
+#item span {
+      position: absolute;
+      width: 50%;
+      left: 25%;
+      height: 50%;
+      top: 25%;
+      color: rgb(0, 0, 0);
+      font-size: x-large;
+      text-align: center;
+}

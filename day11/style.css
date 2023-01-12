@@ -92,20 +92,23 @@ h1{
       color: rgb(0, 0, 0);
 }
 
-#one>p1{
+#one p{
           background-color: green;
           color: white;
           font-size: 60px;
+          display:inline-flex;
 }
 
-p2~p2{
+#two p{
           background-color: purple;
           color: white;
           font-size: 46px;
+          display: inline-flex;
 }
 
 #two{
           position: relative;
+
 }
 
 #three{
