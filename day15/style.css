@@ -1,0 +1,22 @@
+
+body{
+  background-color: black;
+}
+
+#container{
+ position: absolute;
+ left: 0;
+ top: 0;
+ width: 100%;
+ min-height: 100%;
+ display: flex;
+ justify-content: center;
+ place-items: center;
+}
+
+#container div{
+  position: relative;
+  height: 250px;
+  width: 250px;
+  background-color: silver;
+}
