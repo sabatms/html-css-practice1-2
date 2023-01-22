@@ -1,0 +1,32 @@
+body{
+          background-image: url(photo/IMG_0809.JPG);
+          background-size: 38%;
+          background-position: start;
+          background-attachment: fixed;
+          background-color: rgb(4, 106, 45);
+          background-repeat: no-repeat;
+
+}
+
+#container{
+          position:absolute;
+          left: 0;
+          top: 0;
+          width: 100%;
+          min-height: 100%;
+          display: flex;
+          justify-content: center;
+          place-items: center;
+          color: rgb(0, 0, 0);
+}
+
+#container div{
+          position: relative;
+          width: 250px;
+          height: 250px;
+          background-color: rgb(232, 90, 232);
+          margin: auto;
+          padding: 5px ;
+          text-align: center;
+          font-size: xx-large;
+}
