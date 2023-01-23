@@ -1,0 +1,15 @@
+table, th, td {
+          border: 1px solid black;
+          border-radius: 10px;
+}
+
+ul{
+          font-size: 50px;
+          /*list-style-type: circle;
+          list-style-type:square;
+          list-style-type: none;*/
+}
+
+ol{
+          font-size: 30px;
+}
