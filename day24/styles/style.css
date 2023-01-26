@@ -1,0 +1,63 @@
+body{
+          background-color: rgb(57, 57, 57);
+}
+
+#container{
+          position: absolute;
+          left: 0;
+          top: 0;
+          height: 100%;
+          width: 100%;
+          display: block;
+}
+
+#container #header{
+          position: relative;
+          width: 100%;
+          height: 100vh;
+          left: 0;
+          top: 0;
+          background-size: 478px;
+          background-image: url(../wallpaper/web.JPG);
+          background-repeat: no-repeat;
+          background-position: right;
+          background-attachment: local;
+}
+
+#container #header nav{
+          position: absolute;
+          left: 0;
+          top: 0;
+          height: 15%;
+          width: 65%;
+          background-color: rgba(70, 91, 71, 0.757);
+          display: flex;
+          justify-content: start;
+          place-items: center;
+          flex-direction: row;
+
+}
+
+#container #header nav #nav-website-logo{
+          width: 100%;
+          height: 100%;
+          background-image: url(../wallpaper/icons8-internet-100.png) ;
+          background-repeat: no-repeat;         
+}
+
+#container #header nav #nav-buttons{
+          width: 75%;
+          height: 50%;
+          display: flex;
+          justify-content: end;
+          place-items: end;
+          flex-grow: inherit;
+
+}
+
+#container #header nav #nav-buttons input{
+          width: 40%;
+          background-color: rgb(218, 214, 214);
+          margin: 10px;
+          border-radius: 20px;
+}
