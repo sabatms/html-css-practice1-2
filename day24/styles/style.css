@@ -30,7 +30,7 @@ body{
           top: 0;
           height: 15%;
           width: 65%;
-          background-color: rgba(70, 91, 71, 0.757);
+          background-color: rgb(67, 84, 37);
           display: flex;
           justify-content: start;
           place-items: center;
@@ -57,7 +57,7 @@ body{
 
 #container #header nav #nav-buttons input{
           width: 40%;
-          background-color: rgb(218, 214, 214);
           margin: 10px;
-          border-radius: 20px;
+          border-radius: 6px;
+          text-align: center;
 }
