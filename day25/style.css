@@ -1,0 +1,36 @@
+body{
+          background-color: rgb(84, 84, 84);
+}
+
+#container{
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 100%;
+          min-height: 100%;
+          display: flex;
+          justify-content: center;
+          place-items: center;
+          flex-wrap:wrap/*wrap-reverse nowrap*/;
+         /* flex-direction: column-reverse;*/
+          gap: 50px;
+}
+
+#item{
+          position: relative;
+          width: 250px;
+          height: 250px;
+          background-color: rgb(110, 13, 43);
+          border: 2px solid rgb(255, 255, 255);
+
+}
+
+#item span{
+          position: absolute;
+          text-align: center;
+          color: aliceblue;
+          width: 50%;
+          left: 25%;
+          height: 50%;
+          top: 25%;
+}
