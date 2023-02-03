@@ -10,8 +10,8 @@ body{
           top: 0;
           background-color: rgb(47, 30, 154);
           display: grid;
-          grid-template-columns: /*300px 300px 300px*/ repeat(2, 1fr);
-          grid-template-rows: /*300px 300px 300px*/ repeat(3, 1fr);
+          grid-template-columns: /*300px 300px 300px*/ repeat(4, 2fr);
+          grid-template-rows: /*300px 300px 300px*/ repeat(2, 1fr);
           justify-content: center;
 }
 #item{
