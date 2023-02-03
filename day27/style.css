@@ -1,0 +1,27 @@
+body{
+         background-image: url(photo/IMG_2078.JPG);
+          background-size: 40%;
+          background-repeat: no-repeat;
+          background-position-x: center;
+}
+
+#container{
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 100%;
+          min-height: 100%;
+          display: flex;
+          justify-content: start;
+          flex-direction: row-reverse;
+          color: rgb(0, 0, 0);
+          font-size: 20px;
+}
+
+#container #p-text p{
+          position: relative;
+          display: flex;
+          justify-content: start;
+          place-items: center;
+}
+
