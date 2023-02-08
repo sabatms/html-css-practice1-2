@@ -1,0 +1,30 @@
+body{
+   overflow-x: hidden;
+   background: black;
+}
+#container{
+          position: absolute;
+          width: 100%;
+          min-height: 100%;
+          left: 0;
+          top: 0;
+          display: block;
+}
+
+#container header{
+          width: 100%;
+          height: 150px;
+          background: rgb(199, 10, 10);
+}
+
+#container #content{
+          width: 100%;
+          height: 500px;
+          background: rgb(128, 128, 255);
+}
+
+#container footer{
+          width: 100%;
+          height: 250px;
+          background: rgb(255, 63, 95);
+}
