@@ -1,0 +1,68 @@
+body{
+          background: black;
+}
+
+h1{
+          color: white;
+}
+
+/*#container{
+          position:absolute;
+          left: 0;
+          top: 0;
+          width: 100%;
+          min-height: 100%;
+          display: flex;
+          justify-content: center;
+          place-items: center;
+          flex-wrap: wrap;
+          gap: 20px;
+}
+*/
+/*
+#container label{
+          width: 50px;
+          height: 50px;
+          background: darkgreen;
+          border-radius: 10px;
+          transition: 500ms;
+          cursor: pointer;
+}
+
+#container input:checked+label{
+          background: rgb(255, 255, 255);
+}
+
+
+#container button{
+          padding: 10px 30px 10px 30px;
+          background: rgb(255, 60, 0);
+          border-radius: 10px;
+          color: white;
+}*/
+
+#container{
+          position: relative;
+          top: 0;
+          left: 0;
+          width: 100%;
+          min-height: 100%;
+          display: flex;
+          justify-content: center;
+          place-items: center;
+          flex-direction: column;
+          gap: 30px;
+}
+ 
+input:read-only{
+          background: rgb(205, 50, 174);
+          color: black;
+}
+
+input:read-write{
+          background-color: rgb(69, 77, 1);
+}
+
+:target{
+          background: rgb(248, 118, 140);
+}
