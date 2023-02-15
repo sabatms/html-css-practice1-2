@@ -14,9 +14,10 @@ body{
 #grid-container{
           position: relative;
           display: grid;
-          grid-template-columns: 300px 300px 300px;
-          grid-auto-rows: minmax(200px, auto);
-          /*gap: 30px;*/
+          grid-template-columns: 500px 250px ;
+          grid-auto-rows: minmax( 200px, auto);
+          grid-template-areas: "header header" "sidebar container" ;
+          grid-gap: 30px;
 }
 
 #grid-container>div{
@@ -25,4 +26,12 @@ body{
           background: black;
           border: 1px solid white;
           color: white;
+}
+
+#grid-container #grid-1{
+      grid-area: header;
+}
+
+#grid-container #grid-2{
+          grid-area: sidebar;
 }
