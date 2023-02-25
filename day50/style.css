@@ -8,11 +8,14 @@ body{
         
 }
 
+p{
+          word-break: keep-all;
+}
 
 div{
       width: 300px;
       height: max-content;
-      background: orange;
+      outline: 2px solid red;
 }
 
 /*div:nth-child(1){
