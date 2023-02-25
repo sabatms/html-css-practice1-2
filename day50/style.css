@@ -1,0 +1,29 @@
+body{
+          margin: 0;
+          padding: 0;
+          height: 100vh;
+          display: flex;
+          justify-content: center;
+          place-items: center;
+        
+}
+
+p{
+          word-break: keep-all;
+}
+
+div{
+      width: 300px;
+      height: max-content;
+      outline: 2px solid red;
+}
+
+/*div:nth-child(1){
+          z-index: 1;
+}
+
+div:nth-child(2){
+          background: rgb(35, 77, 19);
+          z-index: 1;
+}
+*/
